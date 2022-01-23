@@ -6,6 +6,7 @@ on:
       - develop
     paths:
       - docker.vars*
+  workflow_dispatch:
 
 jobs:
   docker_release:
